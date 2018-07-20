@@ -15,57 +15,56 @@
 <body>
   <div class="container-fluid">
 
-    <div class="row">
-      <div class="col-md-5">
-        <div class="left">
-          <h1>PIG DICE</h1>
-          <p>This is a simple <strong>dice game</strong> played with many rule variations. Pig dice is what’s known as a jeopardy game. You will have to make risky choice to balance getting ahead without losing
-            it all.</p>
+    <h1>PIG DICE</h1>
+    <p>This is a simple <strong>dice game</strong> played with many rule variations. Pig dice is what’s known as a jeopardy game. You will have to make risky choice to balance getting ahead without losing it all.</p>
 
-          <h3>HOW TO PLAY PIG DICE</h3>
-          <p>The objective of the game is to score 100 points before your opponent does. Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold". The first player to score 100 or more points wins.</p>
-          </ul>
-          <p>Play is taken in turns. On each person's turn that person has the option of either:
-            <p>
-              <ol>
-                <li><strong>Rolling the dice:</strong> where a roll of two to six is added to their score for that turn and the player's turn continues as the player is given the same choice again; or a roll of 1 loses the player's total points for that turn
-                  and their turn finishes with play passing to the next player.</li>
-                <li><strong>Holding:</strong> the player's score for that round is added to their total and becomes safe from the effects of throwing a 1 (one). The player's turn finishes with play passing to the next player.</li>
-        </div>
-      </div>
+    <h3>HOW TO PLAY PIG DICE</h3>
+    <p>The objective of the game is to score 100 points before your opponent does. Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold". The first player to score 100 or more points wins.</p>
+    </ul>
+    <p>Play is taken in turns. On each person's turn that person has the option of either:
+      <p>
+        <ol>
+          <li><strong>Rolling the dice:</strong> where a roll of two to six is added to their score for that turn and the player's turn continues as the player is given the same choice again; or a roll of 1 loses the player's total points for that turn and
+            their turn finishes with play passing to the next player.</li>
+          <li><strong>Holding:</strong> the player's score for that round is added to their total and becomes safe from the effects of throwing a 1 (one). The player's turn finishes with play passing to the next player.</li>
 
-      <div class="col-md-7">
-        <div class="right">
           <h2>PLAYERS:</h2>
-          <form id="new-game">
-            <div class="player-one">
-              <h3>PLAYER 1</h3>
-              <img src="images/dices.jpg" height="150"><br>
+          <div class="row">
+            <div class="col-md-6">
+              <form id="new-game">
+                <div class="player-one">
+                  <h3>PLAYER 1</h3>
+                  <img src="images/dices.jpg" height="150"><br>
+                  <button class="button button4">ROLL</button> <button class="button button4">HOLD</button>
 
-              <button class="button button4">ROLL</button> <button class="button button4">HOLD</button>
+                  <div class="form-group">
+                    <label for="new-score">NAME:</label><br>
+                    <input type="text" class="form-control" id="new-score">
+                    <label for="new-score">SCORE:</label><br>
+                    <input type="text" class="form-control" id="new-score">
+                  </div>
 
-              <div class="form-group">
-                <label for="new-score">SCORE</label>
-                <input type="text" class="form-control" id="new-score">
-              </div>
-
+                </div>
             </div>
+            <div class="col-md-6">
+              <div class="player-two">
+                <h3>PLAYER 2</h3>
+                <img src="images/dices.jpg" height="150"><br>
+                <button class="button button4">ROLL</button> <button class="button button4">HOLD</button>
 
-            <div class="player-two">
-              <h3>PLAYER 2</h3><br>
-              <img src="images/dices.jpg" height="150"><br>
-
-              <button class="button button4">ROLL</button> <button class="button button4">HOLD</button>
-
-              <div class="form-group">
-                <label for="new-score">SCORE</label>
-                <input type="text" class="form-control" id="new-score">
+                <div class="form-group">
+                  <label for="new-score">NAME:</label><br>
+                  <input type="text" class="form-control" id="new-score">
+                  <label for="new-score">SCORE:</label><br>
+                  <input type="text" class="form-control" id="new-score">
+                </div>
               </div>
-          </form>
+            </div>
+            </form>
+
           </div>
-        </div>
-      </div>
-    </div>
+
+
   </div>
 </body>
 

@@ -1,5 +1,4 @@
 # Pig Dice
-
 This is a program of a simple dice game where in each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold". The first to reach 100 points wins the game.
 
 

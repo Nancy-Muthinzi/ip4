@@ -1,21 +1,13 @@
 body {
   /* color: #FFF8DC; */
   font-family: Gochi Hand;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #FFFF66;
 }
 
 h1, h2, h3 {
   /* text-align: center; */
   color: #008080;
-}
-
-.left {
-  text-align: justify;
-}
-
-.right {
-  padding-left: 200px;
 }
 
 .button {
@@ -34,4 +26,12 @@ h1, h2, h3 {
 
 #new-score {
   width: 20em;
+}
+
+#new-name {
+  width: 20em;
+}
+
+.player-console {
+  display: none;
 }
