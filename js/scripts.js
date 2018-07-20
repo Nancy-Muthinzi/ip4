@@ -1,28 +1,26 @@
 //Business Logic
-function Player(name) {
+var player1 = "";
+var player2 = "";
+
+function Player(name, score, total) {
   this.name = name;
   this.score = 0;
-}
+  this.total = 0;
+};
 
 Player.prototype.increaseScore = function(amount) {
   this.score += amount;
-}
-
-
-
-
+};
 
 // User Interface Logic
 $(document).ready(function() {
-  $("button#start").click(function(event){
-      playerOne = new Player(true);
-      playerTwo =  new Player(false);
-      $(".player-console").show();
-      $(".start-menu").hide();
-};
+      var player1 = new Player("Player1");
+      var player2 = new Player("Player2");
 
-   var playerOneName = $(".playerOneName").val();
-   $("#playerOneName").text(playerOneName);
+      function myFunction() {
+      var rollDice = Math.floor((Math.random() * 6) + 1);
+      document.getElementById("demo").innerHTML = x;
+  }
 
-   var playerTwoName = $(".playerTwoName").val();
-   $("#playerTwoName").text(playerTwoName);
+
+    };

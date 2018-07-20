@@ -1,13 +1,15 @@
 body {
-  /* color: #FFF8DC; */
   font-family: Gochi Hand;
   font-size: 16px;
   background-color: #FFFF66;
 }
 
 h1, h2, h3 {
-  /* text-align: center; */
   color: #008080;
+}
+
+h2 {
+  text-align: center;
 }
 
 .button {
@@ -24,14 +26,6 @@ h1, h2, h3 {
   border-radius: 12px;
 }
 
-#new-score {
+#new-score, #new-name {
   width: 20em;
-}
-
-#new-name {
-  width: 20em;
-}
-
-.player-console {
-  display: none;
 }
