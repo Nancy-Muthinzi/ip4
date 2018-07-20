@@ -1,7 +1,7 @@
 body {
   /* color: #FFF8DC; */
   font-family: Gochi Hand;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #FFFF66;
 }
 
@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 .right {
-  padding-left: 300px;
+  padding-left: 200px;
 }
 
 .button {
