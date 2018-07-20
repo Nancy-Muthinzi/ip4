@@ -19,7 +19,7 @@ $(document).ready(function() {
 
       function myFunction() {
       var rollDice = Math.floor((Math.random() * 6) + 1);
-      document.getElementById("demo").innerHTML = x;
+      document.getElementById("new-score").innerHTML = x;
   }
 
 
