@@ -1,6 +1,37 @@
 body {
+  /* color: #FFF8DC; */
   font-family: Gochi Hand;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #FFFF66;
+}
+
+h1, h2, h3 {
   /* text-align: center; */
+  color: #008080;
+}
+
+.left {
+  text-align: justify;
+}
+
+.right {
+  padding-left: 300px;
+}
+
+.button {
+  background-color: #008080;
+  border: none;
+  color: #FFFF66;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#new-score {
+  width: 20em;
 }
